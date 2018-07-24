@@ -43,7 +43,7 @@ plugins.push(
         handleFetch: true,
         dynamicUrlToDependencies: {
             '/': ['resources/views/welcome.blade.php'],
-            '/articles': ['resources/views/articles.blade.php']
+            //'/articles': ['resources/views/articles.blade.php']
         },
         staticFileGlobsIgnorePatterns: [/\.map$/, /mix-manifest\.json$/, /manifest\.json$/, /service-worker\.js$/],
         runtimeCaching: [

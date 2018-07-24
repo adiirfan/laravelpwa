@@ -4,8 +4,19 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <link rel="manifest" href="{{url('/manifest.json')}}">
+        <meta name="theme-color" content="#fff"/>
+        {{-- icons for IOS devices --}}
+        <link rel="apple-touch-icon" sizes="60x60" href="/icons/apple-60.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/icons/apple-76.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/icons/apple-120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/icons/apple-152.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="/icons/apple-167.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-180.png">
+        <meta name="apple-mobile-web-app-capable" content="yes">
         <title>Laravel</title>
+
+        
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
